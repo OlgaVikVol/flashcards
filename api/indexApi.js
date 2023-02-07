@@ -102,7 +102,7 @@ route.post('/createanswers', async (req, res) => {
   }
 });
 
-//statistic
+//statistic 
 route.post('/statistic', async (req, res) => {
   try {
     const allStat = await Statistic.findAll({
